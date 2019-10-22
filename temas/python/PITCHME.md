@@ -166,7 +166,7 @@ def dalisana(skaititajs, saucejs):
         return skaititajs /  saucejs
 ```
 
-@snap[south span-100 text-07]
+@snap[south span-100 text-10]
 
 @[1](definējam funkciju ar diviem argumentiem)
 @[2,4,6](zarošanās nosacījumi)
