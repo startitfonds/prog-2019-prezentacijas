@@ -4,11 +4,10 @@
 
 @snap[west span-30 text-center]
 
-## Python valoda
+#### Python valoda
 
-### repl.it vide
+#### repl.it vide
 
-@fa[github fa-3x]
 @snapend
 
 @snap[north-east span-60 text-12]
@@ -29,7 +28,7 @@
 
 +++
 
-## Programmēšanas valoda Python
+### Programmēšanas valoda Python
 
 @ul
 
@@ -46,33 +45,6 @@
 - Atkāpēm ir sintaktiska nozīme
 - Bloki tiek apzīmēti ar atkāpi
 - Piespiež ievērot formatēšanas labo stilu
-
-+++
-
----?color=linear-gradient(90deg, white 50%, black 50%)
-
-@snap[west span-50 text-center]
-
-### Python
-
-```python
-# Šis ir komentārs
-print("Sveika, pasaule")
-```
-
-@snapend
-
-@snap[east span-50 text-center]
-
-### JavaScript
- 
-```javascript
-// Šis ir komentārs
-alert("Sveika, pasaule");
-console.log("Sveika, pasaule");
-```
-
-@snapend
 
 ---
 
@@ -100,3 +72,79 @@ console.log("Sveika, pasaule");
 - Iespējams veidot ļoti dažādus projektus
 
 @ulend
+
+---
+
+## Kā to lietot
+
+---?color=linear-gradient(90deg, white 50%, grey 50%)
+
+@snap[west span-50 text-center]
+
+#### Python
+
+```python
+# Šis ir komentārs
+print("Sveika, pasaule")
+```
+
+@snapend
+
+@snap[east span-50 text-center]
+
+#### JavaScript
+
+```javascript
+// Šis ir komentārs
+alert("Sveika, pasaule");
+console.log("Sveika, pasaule");
+```
+
+@snapend
+
++++
+
+```python
+# definējam funkciju
+def sveiciens(vards):
+    print("Labrīt, " + vards)
+
+# izsaucam funkciju
+sveiciens("Evija")
+
+# rezultāts izskatās tā:
+```
+```
+> 'Labrīt, Evija'
+```
+
++++
+
+### Zarošanās
+
+
+@snap[west span-50]
+
+```python
+def pozitivs(skaitlis):
+    if skaitlis > 0:
+        return True
+    else:
+        return False
+```
+
+@snapend
+
+@snap[east span-50]
+
+```javascript
+function pozitivs(skaitlis) {
+    if (skaitlis > 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
+```
+
+@snapend
