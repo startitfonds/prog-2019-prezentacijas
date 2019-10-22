@@ -118,7 +118,7 @@ sveiciens("Evija")
 
 @snapend
 
-@snap[south text-18]
+@snap[south text-14]
 
 @[1](definējam funkciju)
 @[4](izsaucam funkciju)
@@ -132,7 +132,7 @@ sveiciens("Evija")
 
 @snapend
 
-@snap[west span-50 text-18]
+@snap[west span-50 text-14]
 
 Python
 
@@ -146,7 +146,7 @@ def pozitivs(skaitlis):
 
 @snapend
 
-@snap[east span-50 text-18]
+@snap[east span-50 text-14]
 
 JavaScript
 
@@ -164,7 +164,7 @@ function pozitivs(skaitlis) {
 
 +++
 
-@snap[text-20]
+@snap[text-16]
 
 ```python
 def dalisana(skaititajs, saucejs):
