@@ -104,27 +104,35 @@ console.log("Sveika, pasaule");
 
 +++
 
+@snap[text-20 span-60 text-center]
+
 ```python
-# definējam funkciju
 def sveiciens(vards):
     print("Labrīt, " + vards)
 
-# izsaucam funkciju
 sveiciens("Evija")
 
-# rezultāts izskatās tā:
-```
-```
+
 > 'Labrīt, Evija'
 ```
 
+@snapend
+
+@snap[south text-18]
+
+@[1](definējam funkciju)
+@[4](izsaucam funkciju)
+@[7](rezultāts)
+@snapend
+
 +++
+
 @snap[north span-100 text-smallcaps]
 ### Zarošanās
 
 @snapend
 
-@snap[west span-50]
+@snap[west span-50 text-18]
 
 Python
 
@@ -138,7 +146,7 @@ def pozitivs(skaitlis):
 
 @snapend
 
-@snap[east span-50]
+@snap[east span-50 text-18]
 
 JavaScript
 
@@ -156,6 +164,8 @@ function pozitivs(skaitlis) {
 
 +++
 
+@snap[text-20]
+
 ```python
 def dalisana(skaititajs, saucejs):
     if skaititajs == 0:
@@ -165,6 +175,8 @@ def dalisana(skaititajs, saucejs):
     else:
         return skaititajs /  saucejs
 ```
+
+@snapend
 
 @snap[south span-100 text-10]
 
