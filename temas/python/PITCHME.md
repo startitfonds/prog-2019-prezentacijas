@@ -119,11 +119,14 @@ sveiciens("Evija")
 ```
 
 +++
-
+@snap[north span-100 text-smallcaps]
 ### Zarošanās
 
+@snapend
 
 @snap[west span-50]
+
+Python
 
 ```python
 def pozitivs(skaitlis):
@@ -137,6 +140,8 @@ def pozitivs(skaitlis):
 
 @snap[east span-50]
 
+JavaScript
+
 ```javascript
 function pozitivs(skaitlis) {
     if (skaitlis > 0) {
@@ -146,5 +151,27 @@ function pozitivs(skaitlis) {
     }
 }
 ```
+
+@snapend
+
++++
+
+```python
+def dalisana(skaititajs, saucejs):
+    if skaititajs == 0:
+        return 0
+    elif saucejs == 0:
+        return "Ar 0 dalīt nedrīkst!"
+    else:
+        return skaititajs /  saucejs
+```
+
+@snap[south span-100 text-07]
+
+@[1](definējam funkciju ar diviem argumentiem)
+@[2,4,6](zarošanās nosacījumi)
+@[2-3](pārbaudam pirmo nosacījumu)
+@[4-5](pārbaudam citu nosacījumu)
+@[6-7](izpildam visos citos gadījumos)
 
 @snapend
