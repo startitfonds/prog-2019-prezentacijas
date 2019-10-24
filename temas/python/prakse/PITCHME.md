@@ -1,3 +1,9 @@
+## Prezentācija tiešsaistē
+
+#### https://ej.uz/startit-python
+
+---
+
 ## Ievads Python
 
 ---?color=linear-gradient(90deg, white 50%, black 50%)
@@ -178,27 +184,55 @@ sveiciens("Evija");
 
 +++
 
-BILDE AR PIRMO LAPU
+@img[](assets/img/replit-pirmalapa.png)
 
 +++
 
-BILDE AAR SETIINGIEM UN ROLES
+### Atveram "Account"
+
+@img[](assets/img/replit-izvelne.png)
 
 +++
 
-### Un tagad pabūsim skolēnu ādā
+### Ieķeksējam "teacher" un "student"
+
+@img[](assets/img/replit-roles.png)
+
++++
+
+### Studenta skats
+
+@img[](assets/img/replit-student.png)
+
++++
+
+#### Klases skats
+
+@img[](assets/img/replit-student-calssroom.png)
+
++++
+
+#### Uzdevuma skats
+
+@img[](assets/img/replit-student-assignment-view.png)
+
++++
+
+### Un tagad pabūsim skolēnu ādā!
+
+#### Pievienjamies klasei
 
 https://repl.it/classroom/invite/gBoWpZQ
 
 ---
 
 @snap[north span-100 text-smallcaps]
-### Zarošanās
+#### Zarošanās
 @snapend
 
 @snap[west span-50]
 
-####Python
+#### Python
 
 ```python
 def pozitivs(skaitlis):
@@ -213,7 +247,7 @@ def pozitivs(skaitlis):
 
 @snap[east span-50]
 
-####JavaScript
+#### JavaScript
 
 ```javascript
 function pozitivs(skaitlis) {
@@ -426,6 +460,19 @@ with open("bilde.png", "rb") as bilde:
 
 @ul
 - var vienkārši lasīt izmantojot iebūvēto funkcionalitāti
-- rindas ior atdalītas ar "\n"
+- rindas ir atdalītas ar "\n"
 - rakstot "\n" ir jāpievieno, ja grib jaunu rindu
 @ulend
+
++++
+
+### Un tagad atkal pabūsim skolēnu ādā
+
+https://repl.it/classroom/invite/gn3mTBi
+
+---
+
+### repl.it lietošana mācīšanai
+
++++
+
