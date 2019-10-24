@@ -95,8 +95,9 @@ atlikums = 12 % 10      # == 2
 @snapend
 
 +++
-
-### Sintakses salīdzinajums
+@snap[north-east]
+#### Sintakses salīdzinājums
+@snapend
 
 @snap[west span-50]
 #### Python
