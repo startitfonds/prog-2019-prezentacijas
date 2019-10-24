@@ -37,10 +37,11 @@
 
 +++
 
-@snap[north-west]
+@snap[north-east]
 #### Datu struktūras
 @snapend
 
+#### Python
 ```python
 vards = "Labrīt, skolotāji!"
 skaitlis = 10
@@ -63,9 +64,11 @@ nav = None
 
 +++
 
-@snap[north-west]
+@snap[north-east]
 #### Operatori
 @snapend
+
+#### Python
 
 ```python
 a = 1
@@ -116,7 +119,7 @@ console.log("Čau!");
 
 @snap[west span-50]
 
-Python
+#### Python
 
 ```python
 # definējam funkciju
@@ -130,7 +133,7 @@ sveiciens("Evija")
 
 @snap[east span-50]
 
-JavaScript
+#### JavaScript
 
 ```javascript
 // definējam funkciju
@@ -144,7 +147,7 @@ sveiciens("Evija");
 
 ---
 
-### Laiks praktizēties !
+### Laiks praktizēties!
 
 +++
 
@@ -185,7 +188,7 @@ BILDE AAR SETIINGIEM UN ROLES
 
 ### Un tagad pabūsim skolēnu ādā
 
-#### repl.it/classroom/join/.....
+https://repl.it/classroom/invite/gBoWpZQ
 
 ---
 
@@ -195,7 +198,7 @@ BILDE AAR SETIINGIEM UN ROLES
 
 @snap[west span-50]
 
-Python
+####Python
 
 ```python
 def pozitivs(skaitlis):
@@ -210,7 +213,7 @@ def pozitivs(skaitlis):
 
 @snap[east span-50]
 
-JavaScript
+####JavaScript
 
 ```javascript
 function pozitivs(skaitlis) {
@@ -225,8 +228,8 @@ function pozitivs(skaitlis) {
 
 +++
 
-@snap[north-west]
-#### Pilns if-elif-else zarošanās piemērs
+@snap[north span-100 text-smallcaps]
+#### if-elif-else piemērs
 @snapend
 
 ```python
@@ -251,7 +254,7 @@ def dalisana(skaititajs, saucejs):
 
 +++
 
-@snap[north-west]
+@snap[north span-100 text-smallcaps]
 #### Cikli (for .. in range ...)
 @snapend
 
@@ -299,8 +302,8 @@ for (let i = 0; i < 5; i += 1) {
 
 +++
 
-@snap[north-west]
-#### Cikli (for .. in ...) ar iterable datu struktūrām
+@snap[north span-100 text-smallcaps]
+#### Cikli (for .. in ...) ar iterable
 @snapend
 
 ```python
@@ -327,7 +330,7 @@ for i in range(len(masivs)):
 
 +++
 
-@snap[north-west]
+@snap[north span-100 text-smallcaps]
 #### Cikli (for .. in ...) ar vārdīcu
 @snapend
 
@@ -346,7 +349,7 @@ for atslega, vertiba in vardnica.items():
 
 ### Un tagad atkal pabūsim skolēnu ādā
 
-#### repl.it/classroom/join/.....
+#### Dodamies uz repl.it un turpinām
 
 ---
 
@@ -354,7 +357,9 @@ for atslega, vertiba in vardnica.items():
 
 +++
 
+@snap[north span-100 text-smallcaps]
 #### Failu darbību vispārīgs apskats:
+@snapend
 
 @ul
 - atver failu
@@ -408,11 +413,11 @@ with open("bilde.png", "rb") as bilde:
 ### Darbības ar teksta failiem
 
 @ul
-- vienkārši teksta faili - *.txt
-- tabulāri dati, atdalīti ar simbolu - *.csv
-- formatēti dokumenti - *.doc
-- web lapas - *.html
-- json dokumenti - *.json
+- vienkārši teksta faili *.txt
+- tabulāri dati, atdalīti ar simbolu *.csv
+- formatēti dokumenti *.doc
+- web lapas *.html
+- json dokumenti *.json
 @ulend
 
 +++
