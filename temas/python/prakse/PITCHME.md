@@ -154,6 +154,26 @@ sveiciens("Evija");
 ```
 @snapend
 
++++
+@snap[north-east]
+#### Ievade un izvade
+@snapend
+
+```python
+teksts = input("Ievadiet vārdu: ")
+skaitlis = int(input("Ievadiet skaitli: "))
+teksts2 = input()
+print(teksts + teksts2)
+print(skaitlis)
+print(teksts + str(skaitlis))
+```
+
+@snap[south span-100 text-10]
+@[1](Tekstu ievieto mainīgajā)
+@[2](Tekstu pārveido par skaitli un ievieto mainīgajā)
+@[4-6](Lieto mainīgos, lai izvadītu datus)
+@snapend
+
 ---
 
 ### Laiks praktizēties!
