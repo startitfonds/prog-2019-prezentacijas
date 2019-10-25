@@ -44,7 +44,7 @@
 
 +++
 
-## Darbosimies vairāk praktiski
+### Darbosimies vairāk praktiski
 
 Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
