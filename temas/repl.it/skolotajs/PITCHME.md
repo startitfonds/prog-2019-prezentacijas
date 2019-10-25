@@ -72,7 +72,7 @@
 ### Izveidojam jaunu I/O testa vienību
 @snapend
 
-@img[](assets/img/replit-teacher-create-io-testcase.png)
+@img[](assets/img/replit-teacher-create-io-testcase.png?size=contain)
 
 +++
 
