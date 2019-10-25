@@ -66,13 +66,11 @@
 
 @img[](assets/img/replit-teacher-create-io-test.png)
 
-+++
+---?image=assets/img/replit-teacher-create-io-testcase.png&size=auto 90%
 
 @snap[north span-100 text-smallcaps]
 ### Izveidojam jaunu I/O testa vienību
 @snapend
-
-@img[](assets/img/replit-teacher-create-io-testcase.png?size=contain)
 
 +++
 
