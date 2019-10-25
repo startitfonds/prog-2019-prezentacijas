@@ -63,6 +63,19 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
 +++
 
+### Darbosimies vairāk praktiski
+
+@ul
+- Ko nozīmē darboties ar WEB serveriem
+  - Datubāzes
+  - Tiesības
+  - Rezerves kopijas
+  - Strāvas bojājumi
+  - Tīkla bojājumi
+@ulend
+
++++
+
 ### Mūsdienu serveru puses izstrāde
 
 @ul
