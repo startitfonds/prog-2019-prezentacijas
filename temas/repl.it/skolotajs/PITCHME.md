@@ -2,8 +2,8 @@
 
 +++
 
-@snap[north span-100 text-smallcaps]
-### repl.it skolotāja skats
+@snap[north-east span-100 text-smallcaps]
+#### repl.it skolotāja skats
 @snapend
 
 @img[](assets/img/replit-teacher.png)
@@ -15,12 +15,15 @@
 @snapend
 
 @ul
+
 - Classroom - uzdevumu grupa
 - Assignment - uzdevums
 - Assignment instructions - uzdevuma apraksts (instrukcijas)
 - Assignment code - uzdevuma sākuma kods
 - Test case - automātiskas pārbaudes vienība konkrētam uzdevumam
 - Assignment state - uzdevuma statuss (publicēts vai melnraksts)
+@ulend
+
 +++
 
 @snap[north span-100 text-smallcaps]
@@ -28,6 +31,7 @@
 @snapend
 
 @ul
+
 - Nosauc uzdevumu grupu
   - Specifisku un īsu nosaukumu
     - pēc tēmas (Cikli)
@@ -35,6 +39,7 @@
 - Izvēlās programmēšanas valodu
 - Var pievienot aprakstu
 - Var pievienot attēlu (vieglāk atpazīt)
+
 @ulend
 
 +++
@@ -67,7 +72,7 @@
 ### Izveidojam jaunu I/O testa vienību
 @snapend
 
-@img[](assets/img/replit-teacher-create-io-test-case.png)
+@img[](assets/img/replit-teacher-create-io-testcase.png)
 
 +++
 
@@ -102,8 +107,8 @@
   - repl.it piedāvātās uzdevumu grupas
   - pēc atvēršanas jāizvēlas "Import and Teach"
 - izmantojot URL uz uzdevumu grupu
-  - jebkurš var dalīties ar savu uzdevumu grupu
-  - automātiski tiek izveidota kopija skolotāja kontā
+  - jebkurš var dalīties ar saviem uzdevumiem
+  - automātiski tiek izveidota kopija
   - tiek kopēti uzdevumi un testi, bet ne skolēni
   @ulend
 
