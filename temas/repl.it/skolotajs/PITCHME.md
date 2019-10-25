@@ -24,7 +24,7 @@
 - Assignment state - uzdevuma statuss (publicēts vai melnraksts)
 @ulend
 
-+++
+---
 
 @snap[north span-100 text-smallcaps]
 ### Veidojam jaunu uzdevumu grupu
@@ -80,7 +80,7 @@
 
 @img[](assets/img/replit-teacher-publish-options.png)
 
-+++
+---
 
 @snap[north span-100 text-smallcaps]
 ### Uzdevums
@@ -93,7 +93,7 @@
   - ar sākumkodu
   - ar i/o testu
 
-+++
+---
 
 @snap[north span-100 text-smallcaps]
 ### Citu uzdevumu grupu pievienošana
