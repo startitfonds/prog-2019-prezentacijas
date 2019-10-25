@@ -4,12 +4,6 @@
 
 ---
 
-## Par ko mēs šodien runāsim?
-
----?color=linear-gradient(90deg, white 50%, black 50%)
-
-@snap[west span-30 text-center]
-
 +++
 
 ## Turpmākais plāns
