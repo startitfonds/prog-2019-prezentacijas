@@ -86,12 +86,16 @@
 ### Uzdevums
 @snapend
 
+@ul
+
 - izveidojiet savu "classroom"
 - izveidojiet vienu uzdevumu
   - ievades / izvades uzdevuma tipu
   - ar instrukciju skolēnam
   - ar sākumkodu
   - ar i/o testu
+
+@ulend
 
 ---
 
@@ -144,3 +148,118 @@
 @snapend
 
 @img[](assets/img/replit-teacher-student-progress.png)
+
+---
+
+@snap[north span-100 text-smallcaps]
+### Uzdevumi ar funkcijām
+@snapend
+
+```python
+def kvadrats(skaitlis):
+  # Aprēķināt skaitļa kvadrātu
+  return
+```
+
+```python
+def pozitivs(skaitlis):
+  # Ja skaitlis ir lielāks par 0
+  # Atgriezt True
+  # Pretējā gadījumā atgriezt False
+  return
+```
+
++++
+
+@snap[north span-100 text-smallcaps]
+### Vienību testu veidošana
+@snapend
+
+@ul
+
+- Jāizdomā testa parametri
+- Jāzina, kādām jābūt pareizām atbildēm katram parametram
+- Jāizvēlas "Automatic Unit tests (recommended)"
+
+@ulend
+
++++
+
+@snap[north span-100 text-smallcaps]
+### Vienību testa piemērs 1
+@snapend
+
+@snap[west span-50]
+
+#### Python funkcijas uzdevums
+
+```python
+def kvadrats(skaitlis):
+  # Aprēķināt skaitļa kvadrātu
+  return
+```
+
+@snapend
+
+@snap[east span-50]
+
+#### Vienību tests uzdevumam
+
+```python
+self.assertEquals(kvadrats(2), 4)
+
+self.assertEquals(kvadrats(2.1), 4.41)
+
+self.assertEquals(kvadrats(-1), 1)
+```
+
+@snapend
+
++++
+
+@snap[north span-100 text-smallcaps]
+### Vienību testa piemērs 2
+@snapend
+
+@snap[west span-50]
+
+#### Python funkcijas uzdevums
+
+```python
+def pozitivs(skaitlis):
+  # Ja skaitlis ir lielāks par 0
+  # Atgriezt True
+  # Pretējā gadījumā atgriezt False
+  return
+```
+
+@snapend
+
+@snap[east span-50]
+
+#### Vienību tests
+
+```python
+self.assertEquals(pozitivs(2), True)
+
+self.assertEquals(pozitivs(0), False)
+
+self.assertEquals(pozitivs(-1), False)
+```
+
+@snapend
+
++++
+
+@snap[north span-100 text-smallcaps]
+### Vienību testu veidošanas lapa
+@snapend
+
+@snap[east span-50]
+@img[](assets/img/replit-teacher-unittest1.png)
+@snapend
+
+@snap[west span-50]
+@img[](assets/img/replit-teacher-unittest2.png)
+@snapend
+

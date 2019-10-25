@@ -48,6 +48,7 @@
 @snapend
 
 #### Python
+
 ```python
 vards = "Labrīt, skolotāji!"
 skaitlis = 10
