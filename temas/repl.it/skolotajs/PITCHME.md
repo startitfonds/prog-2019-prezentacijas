@@ -189,21 +189,21 @@ def pozitivs(skaitlis):
 ### Vienību testa piemērs 1
 @snapend
 
-@snap[west span-50]
+@snap[west span-40]
 
 #### Uzdevums
 
 ```python
 def kvadrats(skaitlis):
   # Aprēķināt skaitļa kvadrātu
+  #
+  #
   return
-
-
 ```
 
 @snapend
 
-@snap[east span-50]
+@snap[east span-60]
 
 #### Vienību testi
 
@@ -223,7 +223,7 @@ self.assertEquals(kvadrats(-1), 1)
 ### Vienību testa piemērs 2
 @snapend
 
-@snap[west span-50]
+@snap[west span-40]
 
 #### Uzdevums
 
@@ -237,7 +237,7 @@ def pozitivs(skaitlis):
 
 @snapend
 
-@snap[east span-50]
+@snap[east span-60]
 
 #### Vienību testi
 
