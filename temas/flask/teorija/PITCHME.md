@@ -21,25 +21,25 @@
 
 +++
 
-## Kas ir serveris?
+### Kas ir serveris?
 
 @ul
-  - Serveris ir datorsistēma klienta servera arhitektūrā, kas nodrošina klientu pieprasījumu apstrādi un nosūta tiem atbildes.
-  - Serveris ir arī datorprogramma vai programmu kopums, kas nodrošina klienta programmu pieprasījumu apstrādi.
-  - Šo arī var izlasīt Wikipedia (https://lv.wikipedia.org/wiki/Serveris)
+- Serveris ir datorsistēma klienta servera arhitektūrā, kas nodrošina klientu pieprasījumu apstrādi un nosūta tiem atbildes.
+- Serveris ir arī datorprogramma vai programmu kopums, kas nodrošina klienta programmu pieprasījumu apstrādi.
+- Šo arī var izlasīt Wikipedia (https://lv.wikipedia.org/wiki/Serveris)
 @ulend
 
 +++
 
-## Serveru veidi
+### Serveru veidi
 
 @ul
-  - HTTP (WEB)
-  - DHCP
-  - DNS
-  - EMAIL
-  - FTP
-  - Šo arī var izlasīt Wikipedia (https://lv.wikipedia.org/wiki/Serveris)
+- HTTP (WEB)
+- DHCP
+- DNS
+- EMAIL
+- FTP
+- Šo arī var izlasīt Wikipedia (https://lv.wikipedia.org/wiki/Serveris)
 @ulend
 
 +++
@@ -83,10 +83,10 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 ### Kā es saskāros ar serveriem?
 
 @ul
-  - Word-press
-  - Self-service sistēma (PHP)
-  - Vienkāršas vizītkāršu tipa lapas (PHP)
-  - Jau kaut kas nopietnāks ar RoR (Ruby)
+- Word-press
+- Self-service sistēma (PHP)
+- Vienkāršas vizītkāršu tipa lapas (PHP)
+- Jau kaut kas nopietnāks ar RoR (Ruby)
 @ulend
 
 +++
@@ -94,9 +94,9 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 ### Kādu ietvaru izmantosim mēs?
 
 @ul
-  - Tā kā mēs darbojamies ar Python, tad izmantosim kādu no dotās valodas ietvariem
-  - Sāksim no pamatiem, tāpēc ērts būs mikro ietvars Flask
-  - Analoģiski PHP Slim ietvars
+- Tā kā mēs darbojamies ar Python, tad izmantosim kādu no dotās valodas ietvariem
+- Sāksim no pamatiem, tāpēc ērts būs mikro ietvars Flask
+- Analoģiski PHP Slim ietvars
 @ulend
 
 +++
@@ -104,13 +104,13 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 ### Pietiks pļāpāt, tagad sāksim darboties praktiski
 
 @ul
-  - Pieslēdzamies repl.it
-  - Piestartējam FLASK serveri
-  - Izveidojam vienkāršu index skatu, kas atgriež 'Sveika pasaule!'
-  - Veicam pieprasījumu caur
-    - fetch
-    - postman
-    - pārlūku
+- Pieslēdzamies repl.it
+- Piestartējam FLASK serveri
+- Izveidojam vienkāršu index skatu, kas atgriež 'Sveika pasaule!'
+- Veicam pieprasījumu caur
+  - fetch
+  - postman
+  - pārlūku
 @ulend
 
 +++
@@ -155,9 +155,9 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 ### Turpināsim ar citu vienkāršu pieprasījumu
 
 @ul
-  - Apstrādāsim pieprasījumus:
-    - about
-    - contact
+- Apstrādāsim pieprasījumus:
+  - about
+  - contact
 @ulend
 
 +++
@@ -165,9 +165,9 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 ### Tagad mēs gribētu atgriezt HTML dokumentu ar padotu parametru
 
 @ul
-  - Apstrādāsim pieprasījumus:
-    - about
-    - contact
+- Apstrādāsim pieprasījumus:
+  - about
+  - contact
 @ulend
 
 +++
@@ -175,11 +175,11 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 ### Tagad mēs gribētu padod parametrus un padarboties ar tiem
 
 @ul
-  - Apstrādāsim pieprasījumus:
-    - Padosim parametrus paši un tos atgriezīsim
-    - Atgriezīsim objektu kā simbolu virkni
-    - Atgriezīsim objektu kā JSON
-    - No padotajiem parametriem uzzīmēsim tabulu iekš HTML
+- Apstrādāsim pieprasījumus:
+  - Padosim parametrus paši un tos atgriezīsim
+  - Atgriezīsim objektu kā simbolu virkni
+  - Atgriezīsim objektu kā JSON
+  - No padotajiem parametriem uzzīmēsim tabulu iekš HTML
 @ulend
 
 +++
@@ -187,13 +187,13 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 ### GET apskatījām, tālāk laiks POST, DELETE
 
 @ul
-  - Apstrādāsim pieprasījumus:
-    - Izveidosim POST pieprasījumu
-    - Ierakstīsim datus failā
-    - Nolasīsim no faila
-    - Uzzīmēsim faila saturu tabulas veidā
-    - Nolasīsim rindu no faila
-    - Izdzēsīsim rindu no faila
+- Apstrādāsim pieprasījumus:
+  - Izveidosim POST pieprasījumu
+  - Ierakstīsim datus failā
+  - Nolasīsim no faila
+  - Uzzīmēsim faila saturu tabulas veidā
+  - Nolasīsim rindu no faila
+  - Izdzēsīsim rindu no faila
 @ulend
 
 +++
@@ -201,11 +201,11 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 ### Paskatīsimies, kā varam atgriezt faila saturu balstoties uz pieprasījuma tipu
 
 @ul
-  - Apstrādāsim pieprasījumus:
-    - application/json
-    - text/plain
-    - text/html
-    - kā ar neapstrādātiem pieprasījumiem?
+- Apstrādāsim pieprasījumus:
+  - application/json
+  - text/plain
+  - text/html
+  - kā ar neapstrādātiem pieprasījumiem?
 @ulend
 
 +++
@@ -213,8 +213,8 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 ### Saglabāsim attēlu uz servera
 
 @ul
-  - Apstrādāsim pieprasījumus:
-    - multipart/form-data
-    - izveidosim vietu, kur glabāt failus
-    - saglabājam failu
+- Apstrādāsim pieprasījumus:
+  - multipart/form-data
+  - izveidosim vietu, kur glabāt failus
+  - saglabājam failu
 @ulend
