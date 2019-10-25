@@ -388,17 +388,19 @@ for i in range(len(masivs)):
 +++
 
 @snap[north span-100 text-smallcaps]
-#### Cikli (for .. in ...) ar vārdīcu
+#### Cikli (for .. in ...) ar vārdnīcu
 @snapend
 
 ```python
 vardnica = {"viens": "one", "divi": "two", "trīs": "three"}
 
-for atslega in vardnice:
+for atslega in vardnica:
     print(atslega, vardnica[atslega])
 
 for atslega, vertiba in vardnica.items():
     print(atslega, vertiba)
+
+vardnica["cetri"] = "four"
 
 ```
 
@@ -495,29 +497,3 @@ https://repl.it/classroom/invite/gn3mTBi
 
 ---
 
-### repl.it lietošana mācīšanai
-
-@img[](assets/img/replit-teacher.png)
-
-+++
-
-### Veidojam jaunu klasi ar Python valodu
-
-@img[](assets/img/replit-teacher-create-classroom.png)
-
-+++
-
-### Uzdevums
-
-- izveidojiet savu "classroom"
-- izveidojiet vienu uzdevumu
-  - ar instrukciju
-  - ar sākumkodu
-
-+++
-
-### Noklonējiet šīs klases
-
-- Python (šodienas uzdevumi) https://repl.it/data/classrooms/share/8de26716beb51898aa4d536d97949473
-- Python (šodienas failu uzdevumi) https://repl.it/data/classrooms/share/27f00d70db48825f28012c5d98e519b7
-- JavaScript piemēri https://repl.it/data/classrooms/share/b1c1caedefb594ceaa2b76343d95cc5d

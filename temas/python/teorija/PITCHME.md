@@ -6,7 +6,7 @@
 
 @ul
 - Vienkārša sintakse
-  - (ja zina angļu valodu)
+  - (ja zina angļu valodu @fa[solid-smile-wink] )
 - Populāra kā pirmā programmēšanas valoda
   - MIT
   - Harvard University
@@ -20,8 +20,8 @@
 @ul
 - datu apstrāde (NumPy, SciPy, Pandas)
 - tīmekļa lapas (Flask, Bottle, Django)
-- mašīnmācīšanās (OpenCV, TensorFlow)
-- robotika (...)
+- mašīnmācīšanās (OpenCV, PyTorch, TensorFlow)
+- robotika (pyFirmata)
 @ulend
 
 +++
