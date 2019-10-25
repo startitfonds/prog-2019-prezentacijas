@@ -191,19 +191,21 @@ def pozitivs(skaitlis):
 
 @snap[west span-50]
 
-#### Python funkcijas uzdevums
+#### Uzdevums
 
 ```python
 def kvadrats(skaitlis):
   # Aprēķināt skaitļa kvadrātu
   return
+
+
 ```
 
 @snapend
 
 @snap[east span-50]
 
-#### Vienību tests uzdevumam
+#### Vienību testi
 
 ```python
 self.assertEquals(kvadrats(2), 4)
@@ -223,7 +225,7 @@ self.assertEquals(kvadrats(-1), 1)
 
 @snap[west span-50]
 
-#### Python funkcijas uzdevums
+#### Uzdevums
 
 ```python
 def pozitivs(skaitlis):
@@ -237,7 +239,7 @@ def pozitivs(skaitlis):
 
 @snap[east span-50]
 
-#### Vienību tests
+#### Vienību testi
 
 ```python
 self.assertEquals(pozitivs(2), True)
@@ -255,11 +257,11 @@ self.assertEquals(pozitivs(-1), False)
 ### Vienību testu veidošanas lapa
 @snapend
 
-@snap[east span-50]
+@snap[west span-50]
 @img[](assets/img/replit-teacher-unittest1.png)
 @snapend
 
-@snap[west span-50]
+@snap[east span-50]
 @img[](assets/img/replit-teacher-unittest2.png)
 @snapend
 
