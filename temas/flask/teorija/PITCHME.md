@@ -91,7 +91,7 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
 +++
 
-## Kādu ietvaru izmantosim mēs?
+### Kādu ietvaru izmantosim mēs?
 
 @ul
   - Tā kā mēs darbojamies ar Python, tad izmantosim kādu no dotās valodas ietvariem
