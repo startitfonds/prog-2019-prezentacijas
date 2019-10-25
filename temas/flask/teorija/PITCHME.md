@@ -26,8 +26,11 @@
 
 ## Kas ir serveris?
 
+@ul
 - Serveris ir datorsistēma klienta servera arhitektūrā, kas nodrošina klientu pieprasījumu apstrādi un nosūta tiem atbildes.
 - Serveris ir arī datorprogramma vai programmu kopums, kas nodrošina klienta programmu pieprasījumu apstrādi.
+@ulend
+
 
 Bet to var izlasīt iekš: Wikipedia.
 https://lv.wikipedia.org/wiki/Serveris
@@ -36,12 +39,14 @@ https://lv.wikipedia.org/wiki/Serveris
 
 ### Serveru veidi
 
-- HTTP (WEB)
-- DHCP
-- DNS
-- EMAIL
-- FTP
-- ...
+@ul
+  - HTTP (WEB)
+  - DHCP
+  - DNS
+  - EMAIL
+  - FTP
+  - ...
+@ulend
 
 Šo arī var izlasīt Wikipedia.
 Tur pat, kur iepriekšējo: https://lv.wikipedia.org/wiki/Serveris
@@ -52,6 +57,7 @@ Tur pat, kur iepriekšējo: https://lv.wikipedia.org/wiki/Serveris
 
 Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
+@ul
 - Kam tie vajadzīgi?
 - Kur tos izmanto?
 - Kādi reāli dzīves pielietojumi?
@@ -62,3 +68,4 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
   - Rezerves kopijas
   - Strāvas bojājumi
   - Tīkla bojājumi
+@ulend
