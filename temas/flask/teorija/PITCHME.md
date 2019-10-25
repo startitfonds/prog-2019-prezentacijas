@@ -1,6 +1,6 @@
 ## Prezentācija tiešsaistē
 
-#### https://ej.uz/python-flask
+#### http://ejuz.lv/pythonflask
 
 ---
 
