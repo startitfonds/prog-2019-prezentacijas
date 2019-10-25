@@ -31,7 +31,7 @@
 
 +++
 
-### Serveru veidi
+## Serveru veidi
 
 @ul
   - HTTP (WEB)
@@ -44,7 +44,7 @@
 
 +++
 
-### Darbosimies vairāk praktiski
+## Darbosimies vairāk praktiski
 
 Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
@@ -63,7 +63,7 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
 +++
 
-### Mūsdienu serveru puses izstrāde
+## Mūsdienu serveru puses izstrāde
 
 @ul
 - Back-end
@@ -78,9 +78,9 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
 +++
 
-### Nedaudz par manu pieredzi
+## Nedaudz par manu pieredzi
 
-## Kā es saskāros ar serveriem?
+### Kā es saskāros ar serveriem?
 
 @ul
   - Word-press
@@ -91,7 +91,7 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
 +++
 
-### Kādu ietvaru izmantosim mēs?
+## Kādu ietvaru izmantosim mēs?
 
 @ul
   - Tā kā mēs darbojamies ar Python, tad izmantosim kādu no dotās valodas ietvariem
@@ -101,7 +101,7 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
 +++
 
-### Pietiks pļāpāt, tagad sāksim darboties praktiski
+## Pietiks pļāpāt, tagad sāksim darboties praktiski
 
 @ul
   - Pieslēdzamies repl.it
@@ -115,9 +115,9 @@ Abstrahēsimies no visiem serveru veidiem un paliksim pie WEB servera
 
 +++
 
-### Fetch piemērs
+## Fetch piemērs
 
-## Ja mūs interesē lapas saturs (body)
+### Ja mūs interesē lapas saturs (body)
 
 ```javascript
 fetch(new Request('https://flask-tutorials.akmakit.repl.co/'))
@@ -128,9 +128,9 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/'))
 
 +++
 
-### Fetch piemērs
+## Fetch piemērs
 
-## Ja mūs interesē json
+### Ja mūs interesē json
 
 ```javascript
 fetch(new Request('https://flask-tutorials.akmakit.repl.co/'))
@@ -140,7 +140,7 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/'))
 
 +++
 
-### Ja mūs interesē HEADERS
+## Ja mūs interesē HEADERS
 
 ```javascript
 fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
@@ -150,21 +150,9 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 
 +++
 
-### Tālāk turpināsim darboties praktiski
+## Tālāk turpināsim darboties praktiski
 
-## Turpināsim ar citu vienkāršu pieprasījumu
-
-@ul
-  - Apstrādāsim pieprasījumus:
-    - about
-    - contact
-@ulend
-
-+++
-
-### Tālāk turpināsim darboties praktiski
-
-## Tagad mēs gribētu atgriezt HTML dokumentu ar padotu parametru
+### Turpināsim ar citu vienkāršu pieprasījumu
 
 @ul
   - Apstrādāsim pieprasījumus:
@@ -174,9 +162,21 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 
 +++
 
-### Tālāk turpināsim darboties praktiski
+## Tālāk turpināsim darboties praktiski
 
-## Tagad mēs gribētu padod parametrus un padarboties ar tiem
+### Tagad mēs gribētu atgriezt HTML dokumentu ar padotu parametru
+
+@ul
+  - Apstrādāsim pieprasījumus:
+    - about
+    - contact
+@ulend
+
++++
+
+## Tālāk turpināsim darboties praktiski
+
+### Tagad mēs gribētu padod parametrus un padarboties ar tiem
 
 @ul
   - Apstrādāsim pieprasījumus:
@@ -188,9 +188,9 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 
 +++
 
-### Tālāk turpināsim darboties praktiski
+## Tālāk turpināsim darboties praktiski
 
-## GET apskatījām, tālāk laiks POST, DELETE
+### GET apskatījām, tālāk laiks POST, DELETE
 
 @ul
   - Apstrādāsim pieprasījumus:
@@ -204,9 +204,9 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 
 +++
 
-### Tālāk turpināsim darboties praktiski
+## Tālāk turpināsim darboties praktiski
 
-## Paskatīsimies, kā varam atgriezt faila saturu balstoties uz pieprasījuma tipu
+### Paskatīsimies, kā varam atgriezt faila saturu balstoties uz pieprasījuma tipu
 
 @ul
   - Apstrādāsim pieprasījumus:
@@ -218,9 +218,9 @@ fetch(new Request('https://flask-tutorials.akmakit.repl.co/))
 
 +++
 
-### Tālāk turpināsim darboties praktiski
+## Tālāk turpināsim darboties praktiski
 
-## Saglabāsim attēlu uz servera
+### Saglabāsim attēlu uz servera
 
 @ul
   - Apstrādāsim pieprasījumus:
