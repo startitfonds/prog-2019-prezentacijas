@@ -195,8 +195,8 @@ def pozitivs(skaitlis):
 
 ```python
 def kvadrats(skaitlis):
-  # Aprēķināt skaitļa kvadrātu
-  #
+  # Aprēķināt skaitļa
+  # kvadrātu
   #
   return
 ```
@@ -229,9 +229,9 @@ self.assertEquals(kvadrats(-1), 1)
 
 ```python
 def pozitivs(skaitlis):
-  # Ja skaitlis ir lielāks par 0
-  # Atgriezt True
-  # Pretējā gadījumā atgriezt False
+  # Ja lielāks par 0
+  # atgriezt True
+  # vai atgriezt False
   return
 ```
 
