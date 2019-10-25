@@ -53,7 +53,7 @@
 +++
 
 @snap[north span-100 text-smallcaps]
-### Izveidots jaunu uzdevums
+### Izveidots jauns uzdevums
 @snapend
 
 @img[](assets/img/replit-teacher-new-assignment-filled.png)
@@ -66,10 +66,10 @@
 
 @img[](assets/img/replit-teacher-create-io-test.png)
 
----?image=assets/img/replit-teacher-create-io-testcase.png&size=auto 90%
++++?image=assets/img/replit-teacher-create-io-testcase.png&size=auto 90%
 
 @snap[north span-100 text-smallcaps]
-### Izveidojam jaunu I/O testa vienību
+#### Izveidojam jaunu I/O testa vienību
 @snapend
 
 +++
