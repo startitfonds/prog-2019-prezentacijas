@@ -6,6 +6,13 @@
 
 +++
 
+## Pirmkods pieejams
+
+### https://github.com/startitfonds/python-2019/tree/master/flask
+___
+
++++
+
 ## Turpmākais plāns
 
 @ul
