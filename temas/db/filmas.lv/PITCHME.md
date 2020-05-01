@@ -31,16 +31,16 @@
 
 +++
 
-### Zaļi dati
+### Datu apstrāde
 
 @ul
-- 12 csv teksta faili (pieejami lejuplādei šeit)
+- 12 csv teksta faili [(zip)](https://drive.google.com/file/d/14F4_hrUpZBpaMoOfmgxtNU6nTE7jFGKv/view?usp=sharing)
 - Datu novērtēšana: Excel/Calc
 - Datu kļūdas
 - Datu labošana: txt redaktors
 - Datu imports MySQL datubāzē (MySQL Workbench)
 - Datu labošana ar SQL
-- Datu eksports sql failos (SQL dump)
+- Datu eksports sql failos [(SQL dump zip)](https://drive.google.com/file/d/1HFQe4kJgIgr2OHn89-AvzDVBCajSg_2Z/view?usp=sharing)
 @ulend
 
 ---
@@ -125,15 +125,44 @@
 
 +++
 
-Filmas, kur nosaukumā minēts vīrietis
+### Filmas, kur nosaukumā minēts vīrietis
+
+~~~~sql
+SELECT
+    title_lat
+FROM
+    movies
+WHERE
+    title_lat LIKE '%vīr%';
+~~~~
+
+### Filmas, kur nosaukumā minēta sieviete
+
+~~~~sql
+SELECT
+    title_lat
+FROM
+    movies
+WHERE
+    title_lat LIKE '%siev%';
+~~~~
 
 +++
 
-Filmas, kur nosaukumā minēta sieviete
+### 100 visproduktīvākie ļaudis
 
-+++
-
-100 visproduktīvākie ļaudis
+~~~~sql
+SELECT
+    COUNT(1), surname, name, photo
+FROM
+    people
+    INNER JOIN movie_people ON people.id = movie_people.pep_id
+GROUP BY
+    people.id, surname, name
+ORDER BY
+    COUNT(1) DESC
+LIMIT 100;
+~~~~
 
 +++
 

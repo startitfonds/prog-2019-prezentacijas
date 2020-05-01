@@ -12,3 +12,4 @@ Prezentācijas aplūkot var tiešsaistē sekojošās adresēs:
 - [Python programmēšanas valoda](https://gitpitch.com/startitfonds/prog-2019-prezentacijas?p=temas/python)
 - [Serveri un Flask ietvars](https://gitpitch.com/startitfonds/prog-2019-prezentacijas?p=temas/flask)
 - [repl.it lietošana mācībām](https://gitpitch.com/startitfonds/prog-2019-prezentacijas?p=temas/repl.it/skolotajs)
+- [Darbs ar datubāzēm: Filmas.lv dati](https://gitpitch.com/startitfonds/prog-2019-prezentacijas?p=temas/db/filmas.lv)
