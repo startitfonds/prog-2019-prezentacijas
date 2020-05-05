@@ -47,9 +47,9 @@
 ### Dati importam
 
 @ul
-- (MySQL izmete (dump))(https://drive.google.com/file/d/1HFQe4kJgIgr2OHn89-AvzDVBCajSg_2Z/view?usp=sharing)
-- (PostgreSQL-savietojams SQL)(https://drive.google.com/file/d/1oLwNPLDBtUZmsmCmiSmSZAwYCgOvtN84/view?usp=sharing)
-- (ElephantSQL izmete (dump))(https://drive.google.com/file/d/1_wdXwsv4tEpXHX7n-raod5apIl6FaGgR/view?usp=sharing)
+- [MySQL izmete (dump)](https://drive.google.com/file/d/1HFQe4kJgIgr2OHn89-AvzDVBCajSg_2Z/view?usp=sharing)
+- [PostgreSQL-savietojams SQL](https://drive.google.com/file/d/1oLwNPLDBtUZmsmCmiSmSZAwYCgOvtN84/view?usp=sharing)
+- [ElephantSQL izmete (dump)](https://drive.google.com/file/d/1_wdXwsv4tEpXHX7n-raod5apIl6FaGgR/view?usp=sharing)
 @ulend
 
 ---
