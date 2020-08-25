@@ -106,7 +106,7 @@
 @ul
 
 - caur "Import Classroom"
-  - repl.it piedāvātās uzdevumu grupas
+  - [https://repl.it/community](repl.it piedāvātās uzdevumu grupas)
   - pēc atvēršanas jāizvēlas "Import and Teach"
 - izmantojot URL uz uzdevumu grupu
   - jebkurš var dalīties ar saviem uzdevumiem
@@ -122,7 +122,6 @@
 
 @ul
 
-- [https://repl.it/community](repl.it community) uzdevumi (autograded Python, Javascript, Java, C#, Ruby)
 - Javascript
   - [https://repl.it/data/classrooms/share/b1c1caedefb594ceaa2b76343d95cc5d](piemēri)
   - [https://repl.it/data/classrooms/share/342b43a672b896272b701217147054d2](pārbaudes darbu piemēri)
