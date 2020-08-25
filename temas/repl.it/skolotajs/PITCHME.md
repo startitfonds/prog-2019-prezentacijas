@@ -121,9 +121,16 @@
 @snapend
 
 @ul
-- Python (ievaduzdevumi) https://repl.it/data/classrooms/share/8de26716beb51898aa4d536d97949473
-- Python (failu uzdevumi) https://repl.it/data/classrooms/share/27f00d70db48825f28012c5d98e519b7
-- JavaScript (piemēri) https://repl.it/data/classrooms/share/b1c1caedefb594ceaa2b76343d95cc5d
+
+- [https://repl.it/community](repl.it community) uzdevumi (autograded Python, Javascript, Java, C#, Ruby)
+- Javascript
+  - [https://repl.it/data/classrooms/share/b1c1caedefb594ceaa2b76343d95cc5d](piemēri)
+  - [https://repl.it/data/classrooms/share/342b43a672b896272b701217147054d2](pārbaudes darbu piemēri)
+- Python 
+  - [https://repl.it/data/classrooms/share/8de26716beb51898aa4d536d97949473](ievaduzdevumi)
+  - [https://repl.it/data/classrooms/share/27f00d70db48825f28012c5d98e519b7](failu uzdevumi)
+  - [https://repl.it/data/classrooms/share/4735fd68b298152540579f33e27d88a2](pārbaudes darbu piemēri)
+  
 @ulend
 
 +++
