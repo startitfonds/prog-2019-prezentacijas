@@ -271,3 +271,20 @@ self.assertEquals(pozitivs(-1), False)
 @img[](assets/img/replit-teacher-unittest2.png)
 @snapend
 
+---
+
+@snap[north span-100 text-smallcaps]
+### Lielāki projekti repl.it vidē
+@snapend
+
+[Transporta karte](https://repl.it/@GundegaDekena/startit-transporta-karte)
+
+@ul
+
+- atver projektu
+- "fork"
+- Skolēni arī veido "fork"
+- izstrādes links - https://repl.it/@LIETOTAJVARDS/startit-transporta-karte
+- rezultāta links - https://startit-transporta-karte.LIETOTAJVARDS.repl.co/
+
+@ulend
