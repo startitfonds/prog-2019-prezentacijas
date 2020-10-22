@@ -39,42 +39,6 @@ Repo mapes atvēršana VSCode
 
 ---
 
-### Ja VSCode rāda git error
-
-@img[](assets/img/vscode-git-error.png)
-
-+++
-
-- iekš VSCode - atver Command Palette (Ctrl+Shift+P)
-- atrod un atver "settings.json" datni
-- izveido ierakstu, kur iestatīt "git.exe" atrašanās vietu
-
-Ierakstam jāizskatās tā:
-
-```
-{
-    "git.path": "C:/ "
-}
-```
-
-+++
-
-- atrod un atver mapi, kur tika ieinstalēts "Git for Windows" vai GitHubDesktop
-- atrod "git.exe" atrašanās vietu
-- saglabā "settings.json" datni
-
-+++
-
-### Aizver un atkal atver VSCode
-
-Tagad viss ir kārtībā!
-
-@img[](assets/img/vscode-git-view-light.png)
-
-Ja nav, sauciet mentoru!
-
----
-
 ### VSCode integrācija
 
 @img[](assets/img/vscode-side-icons.png)
