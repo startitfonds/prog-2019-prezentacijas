@@ -497,12 +497,6 @@ vardnica["cetri"] = "four"
 
 ```
 
-+++
-
-### Un tagad atkal pabūsim skolēnu ādā
-
-#### Dodamies uz repl.it un turpinām
-
 ---
 
 ## Darbības ar failiem
@@ -581,12 +575,3 @@ with open("bilde.png", "rb") as bilde:
 - rindas ir atdalītas ar "\n"
 - rakstot "\n" ir jāpievieno, ja grib jaunu rindu
 @ulend
-
-+++
-
-### Un tagad atkal pabūsim skolēnu ādā
-
-https://repl.it/classroom/invite/gn3mTBi
-
----
-
