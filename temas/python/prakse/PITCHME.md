@@ -10,23 +10,51 @@
 
 @snap[west span-30 text-center]
 
-#### Python valoda
+#### Kāpēc Python?
 
-#### repl.it vide
+#### Ievads Python
 
 @snapend
 
 @snap[north-east span-60 text-12]
-@box[bg-green text-white box-padding](Ievads valodas sintaksē)
+@box[bg-gold text-white box-padding](Pielietojums)
 @snapend
 
 @snap[east span-60 text-12]
-@box[bg-blue text-white box-padding](Salīdzinājums ar JS)
+@box[bg-green text-white box-padding](Ievads sintaksē)
 @snapend
 
 @snap[south-east span-60 text-12]
-@box[bg-gold text-white box-padding](repl.it vide)
+@box[bg-blue text-white box-padding](Salīdzinājums ar JS)
 @snapend
+
+---
+
+### Kāpēc Python?
+
+@ul
+
+- Vienkārša sintakse
+  - (ja zina angļu valodu @fa[solid-smile-wink] )
+- Dažādas izmantošanas iespējas
+- Populāra kā pirmā programmēšanas valoda
+  - Vadošajās ASV universitātēs
+  - ne-programmētājiem
+  - profesionālās izglītības kursos
+- Daudz tiešsaistē materiālu
+
+@ulend
+
++++
+
+### Izmantošana
+
+@ul
+- datu apstrāde (NumPy, SciPy, Pandas)
+- tīmekļa lapas (Flask, Bottle, Django)
+- mašīnmācīšanās (OpenCV, PyTorch, TensorFlow)
+- robotika (pyFirmata)
+@ulend
 
 ---
 
@@ -35,7 +63,37 @@
 - Atkāpēm (atstarpēm) ir nozīme ...
 - ... jo bloki tiek apzīmēti ar atkāpi
 - Piespiež ievērot formatēšanas labo stilu
-- Koda redaktora funcionalitāte palīdz
+- Palīdz ar koda lasāmību
+
++++
+
+### Bloki
+
+- Lieto 4 vai 2 atstarpes
+- moderni redaktori automātiski palīdz
+
++++
+
+#### Bloku piemērs
+
+```python
+def piemers():
+    diena = 22
+    if diena == 22:
+        print("Kursu diena!")
+    return diena
+
+piemers()
+```
+
+@snap[south span-100 text-10]
+
+@[1](funkcijas deklarācija)
+@[2-5](funkcijas definīcijas bloks ar atkāpi)
+@[4](zarošanās bloks ar atkāpi)
+@[7](funkcijas izsaukšana)
+
+@snapend
 
 ---
 
@@ -43,17 +101,13 @@
 
 +++
 
-@snap[north-east]
-#### Datu struktūras
-@snapend
-
-#### Python
+#### Pamata datu tipi
 
 ```python
-vards = "Labrīt, skolotāji!"
-skaitlis = 10
-masivs = ["viens", 2, "trīs", 3.14]
-vardnica = {"diena": 24, "menesis": 10}
+virkne = "Labrīt, skolotāji!"
+virkne2 = 'Var arī šādi'
+vesels_skaitlis = 10
+decimalskaitlis = 2.5
 pareizi = True
 nepareizi = False
 nav = None
@@ -61,25 +115,63 @@ nav = None
 
 @snap[south span-100 text-10]
 
-@[1](string)
-@[2](skaitlis)
-@[3](masīvs)
-@[4](vardnica)
+@[1,2](string)
+@[3](int)
+@[4](float)
 @[5,6](boolean)
 @[7](empty value)
 @snapend
 
 +++
 
-@snap[north-east]
-#### Operatori
+#### Datu tipu pārveidošana
+
+```python
+virkne = "10"
+skaitlis = 12
+skaitlis2 = int(virkne)     # 10
+skaitlis3 = float(virkne)   # 10.0
+skaitlis4 = float(skaitlis) # 12.0
+virkne2 = str(skaitlis)     # "10"
+```
+
+@snap[south span-100 text-10]
+
+@[1,6](string)
+@[2,3](int)
+@[4,5](float)
 @snapend
 
-#### Python
++++
+
+#### Datu struktūras
+
+```python
+masivs = ["viens", 2, "trīs", 4.0]
+vardnica = { "diena": 22, "menesis": 10 }
+divdimensiju = [[0, 0],
+                [0, 0]]
+salikts =   [
+                {"id": 1, "vards": "Anna"},
+                {"id": 2, "vards": "Bruno"}
+            ]
+```
+
+@snap[south span-100 text-10]
+
+@[1,3-4](list)
+@[2](dictionary)
+@[5-8](list of dictionaries)
+@snapend
+
++++
+
+#### Operatori
 
 ```python
 a = 1
-b = (2 ** 5) - (2 * 2)
+b = 2 + 3 -7
+c = (2 ** 5) - (2 * 2)
 dalijums = 12 / 10      # == 1.2
 vesela_dala = 12 // 10  # == 1
 atlikums = 12 % 10      # == 2
@@ -88,14 +180,99 @@ atlikums = 12 % 10      # == 2
 @snap[south span-100 text-10]
 
 @[1](piešķir vērtību)
-@[2](saskaita, kāpina, atņem, reizina)
-@[3](iegūst dalījuma rezultātu kā float)
-@[4](iegūst dalījuma veselo daļu kā integer)
-@[5](iegūst dalījuma atlikumu kā integer)
+@[2](saskaita, atņem)
+@[3](kāpina, reizina)
+@[4](iegūst dalījuma rezultātu kā float)
+@[5](iegūst dalījuma veselo daļu kā integer)
+@[6](iegūst dalījuma atlikumu kā integer)
 
 @snapend
 
 +++
+
+#### Ievade un izvade
+
+```python
+teksts = input()
+teksts2 = input("Ievadiet vārdu: ")
+skaitlis = int(input())
+skaitlis2 = int(input("Ievadiet skaitli: "))
+print(teksts)
+print(skaitlis)
+```
+
+@snap[south span-100 text-10]
+@[1,2](Tekstu ievieto mainīgajā)
+@[3,4](Tekstu pārveido par skaitli un ievieto mainīgajā)
+@[5-6](Lieto mainīgos, lai izvadītu datus)
+@snapend
+
++++
+
+#### Izvade
+
+```python
+vards = "Maris"
+skaitlis = 22
+sveiciens = "Labrīt, " + vards
+sveiciens2 = "Labrīt, {}".format(vards)
+diena = "Šodien ir " + str(22) + " oktobris"
+diena2 = "Šodien ir {}. oktobris".format(skaitlis)
+print(sveiciens)
+print(diena2)
+```
+
+@snap[south span-100 text-10]
+@[1,2](Definē mainīgos)
+@[3,4](Tekstu kombinē ar citu tekstu un ievieto mainīgajā)
+@[5-6](Tekstu kombinē ar skaitli un ievieto mainīgajā)
+@[3,5](Līdzīgi kā Javascript)
+@[4,6](Ertāka Python sintakse)
+@snapend
+
++++
+
+#### Zarošanās
+
+```python
+diena = 22
+if diena == 21:
+    print("Pirmā kursu diena!")
+elif diena == 22:
+    print("Otrā kursu diena!")
+else:
+    print("Parasta diena")
+```
+
+@snap[south span-100 text-10]
+@[1](Definē mainīgos)
+@[2,4](veic salīdzinājumu)
+@[6](izpilda, ja neatbilst nevienam nosacījumam)
+@[3,5,7](izpildāmais bloks ar atkāpi!)
+@snapend
+
++++
+
+#### Salīdzinājuma operatori
+
+```python
+2 == 2              # = =
+2 != 3              # ! =
+2 < 3               # <
+2 <=3               # < =
+2 in [1, 2, 3]
+```
+
+@snap[south span-100 text-10]
+@[1](vienāds)
+@[2](nav vienāds)
+@[3](mazāks)
+@[4](mazāks vai vienāds)
+@[5](ir atrodams sarakstā)
+@snapend
+
+---
+
 @snap[north-east]
 #### Sintakses salīdzinājums
 @snapend
@@ -155,98 +332,13 @@ sveiciens("Evija");
 ```
 @snapend
 
-+++
-@snap[north-east]
-#### Ievade un izvade
-@snapend
-
-```python
-teksts = input("Ievadiet vārdu: ")
-skaitlis = int(input("Ievadiet skaitli: "))
-teksts2 = input()
-print(teksts + teksts2)
-print(skaitlis)
-print(teksts + str(skaitlis))
-```
-
-@snap[south span-100 text-10]
-@[1](Tekstu ievieto mainīgajā)
-@[2](Tekstu pārveido par skaitli un ievieto mainīgajā)
-@[4-6](Lieto mainīgos, lai izvadītu datus)
-@snapend
-
 ---
 
 ### Laiks praktizēties!
 
-+++
-
-### repl.it vide
-
-@ul
-- nekas nav jāinstalē
-- pieejama caur pārlūkprogrammu
-- atbalsta dažādas valodas
-@ulend
-
-+++
-
-### Atbalsts mācību procesam:
-  
-@ul
-- uzdevumi
-- uzdevumu automātiskie testi
-- pārbaudes darbi
-- klases darba organizācija
-@ulend
-
-+++
-
-## Atveram repl.it vietni
-
-### Piesakāmies
-
-+++
-
-@img[](assets/img/replit-pirmalapa.png)
-
-+++
-
-### Atveram "Account"
-
-@img[](assets/img/replit-izvelne.png)
-
-+++
-
-### Ieķeksējam "teacher" un "student"
-
-@img[](assets/img/replit-roles.png)
-
-+++
-
-### Studenta skats
-
-@img[](assets/img/replit-student.png)
-
-+++
-
-#### Klases skats
-
-@img[](assets/img/replit-student-classroom.png)
-
-+++
-
-#### Uzdevuma skats
-
-@img[](assets/img/replit-student-assignment-view.png)
-
-+++
-
-### Un tagad pabūsim skolēnu ādā!
-
-#### Pievienojamies klasei
-
-https://repl.it/classroom/invite/gBoWpZQ
+- https://snakify.org/en/
+- https://codingbat.com/python
+- https://www.learnpython.org/en/Welcome
 
 ---
 
