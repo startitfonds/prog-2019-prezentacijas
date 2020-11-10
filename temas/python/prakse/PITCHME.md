@@ -65,24 +65,47 @@
 - Piespiež ievērot formatēšanas labo stilu
 - Palīdz ar koda lasāmību
 
++++
+
+### Bloki
+
+- Lieto 4 vai 2 atstarpes
+- moderni redaktori automātiski palīdz
+
++++
+
+#### Bloku piemērs
+
+```python
+def piemers():
+    diena = 22
+    if diena == 22:
+        print("Kursu diena!")
+    return diena
+
+piemers()
+```
+
+@snap[south span-100 text-10]
+
+@[1](funkcijas deklarācija)
+@[2-5](funkcijas definīcijas bloks ar atkāpi)
+@[4](zarošanās bloks ar atkāpi)
+@[7](funkcijas izsaukšana)
+
+@snapend
+
 ---
 
 ## Kā to lietot
 
 +++
 
-@snap[north-east]
 #### Pamata datu tipi
-@snapend
-
-#### Python
 
 ```python
 virkne = "Labrīt, skolotāji!"
 virkne2 = 'Var arī šādi'
-virkne3 = """Daudzas rindas
-ar apostrofiem ' arī!
-"""
 vesels_skaitlis = 10
 decimalskaitlis = 2.5
 pareizi = True
@@ -101,11 +124,27 @@ nav = None
 
 +++
 
-@snap[north-east]
-#### Datu struktūras
+#### Datu tipu pārveidošana
+
+```python
+virkne = "10"
+skaitlis = 12
+skaitlis2 = int(virkne)     # 10
+skaitlis3 = float(virkne)   # 10.0
+skaitlis4 = float(skaitlis) # 12.0
+virkne2 = str(skaitlis)     # "10"
+```
+
+@snap[south span-100 text-10]
+
+@[1,6](string)
+@[2,3](int)
+@[4,5](float)
 @snapend
 
-#### Python
++++
+
+#### Datu struktūras
 
 ```python
 masivs = ["viens", 2, "trīs", 4.0]
@@ -114,28 +153,25 @@ divdimensiju = [[0, 0],
                 [0, 0]]
 salikts =   [
                 {"id": 1, "vards": "Anna"},
-                {"id": 1, "vards": "Bruno"}
+                {"id": 2, "vards": "Bruno"}
             ]
 ```
 
 @snap[south span-100 text-10]
 
-@[1,3](list)
+@[1,3-4](list)
 @[2](dictionary)
-@[5](list of dictionaries)
+@[5-8](list of dictionaries)
 @snapend
 
 +++
 
-@snap[north-east]
 #### Operatori
-@snapend
-
-#### Python
 
 ```python
 a = 1
-b = (2 ** 5) - (2 * 2)
+b = 2 + 3 -7
+c = (2 ** 5) - (2 * 2)
 dalijums = 12 / 10      # == 1.2
 vesela_dala = 12 // 10  # == 1
 atlikums = 12 % 10      # == 2
@@ -144,14 +180,99 @@ atlikums = 12 % 10      # == 2
 @snap[south span-100 text-10]
 
 @[1](piešķir vērtību)
-@[2](saskaita, kāpina, atņem, reizina)
-@[3](iegūst dalījuma rezultātu kā float)
-@[4](iegūst dalījuma veselo daļu kā integer)
-@[5](iegūst dalījuma atlikumu kā integer)
+@[2](saskaita, atņem)
+@[3](kāpina, reizina)
+@[4](iegūst dalījuma rezultātu kā float)
+@[5](iegūst dalījuma veselo daļu kā integer)
+@[6](iegūst dalījuma atlikumu kā integer)
 
 @snapend
 
 +++
+
+#### Ievade un izvade
+
+```python
+teksts = input()
+teksts2 = input("Ievadiet vārdu: ")
+skaitlis = int(input())
+skaitlis2 = int(input("Ievadiet skaitli: "))
+print(teksts)
+print(skaitlis)
+```
+
+@snap[south span-100 text-10]
+@[1,2](Tekstu ievieto mainīgajā)
+@[3,4](Tekstu pārveido par skaitli un ievieto mainīgajā)
+@[5-6](Lieto mainīgos, lai izvadītu datus)
+@snapend
+
++++
+
+#### Izvade
+
+```python
+vards = "Maris"
+skaitlis = 22
+sveiciens = "Labrīt, " + vards
+sveiciens2 = "Labrīt, {}".format(vards)
+diena = "Šodien ir " + str(22) + " oktobris"
+diena2 = "Šodien ir {}. oktobris".format(skaitlis)
+print(sveiciens)
+print(diena2)
+```
+
+@snap[south span-100 text-10]
+@[1,2](Definē mainīgos)
+@[3,4](Tekstu kombinē ar citu tekstu un ievieto mainīgajā)
+@[5-6](Tekstu kombinē ar skaitli un ievieto mainīgajā)
+@[3,5](Līdzīgi kā Javascript)
+@[4,6](Ērtāka Python sintakse)
+@snapend
+
++++
+
+#### Zarošanās
+
+```python
+diena = 22
+if diena == 21:
+    print("Pirmā kursu diena!")
+elif diena == 22:
+    print("Otrā kursu diena!")
+else:
+    print("Parasta diena")
+```
+
+@snap[south span-100 text-10]
+@[1](Definē mainīgos)
+@[2,4](veic salīdzinājumu)
+@[6](izpilda, ja neatbilst nevienam nosacījumam)
+@[3,5,7](izpildāmais bloks ar atkāpi!)
+@snapend
+
++++
+
+#### Salīdzinājuma operatori
+
+```python
+2 == 2              # = =
+2 != 3              # ! =
+2 < 3               # <
+2 <=3               # < =
+2 in [1, 2, 3]
+```
+
+@snap[south span-100 text-10]
+@[1](vienāds)
+@[2](nav vienāds)
+@[3](mazāks)
+@[4](mazāks vai vienāds)
+@[5](ir atrodams sarakstā)
+@snapend
+
+---
+
 @snap[north-east]
 #### Sintakses salīdzinājums
 @snapend
@@ -195,6 +316,7 @@ def sveiciens(vards):
 # izsaucam funkciju
 sveiciens("Evija")
 ```
+
 @snapend
 
 @snap[east span-50]
@@ -209,105 +331,23 @@ function sveiciens(vards) {
 //izsaucam funkciju
 sveiciens("Evija");
 ```
-@snapend
 
-+++
-@snap[north-east]
-#### Ievade un izvade
-@snapend
-
-```python
-teksts = input("Ievadiet vārdu: ")
-skaitlis = int(input("Ievadiet skaitli: "))
-teksts2 = input()
-print(teksts + teksts2)
-print(skaitlis)
-print(teksts + str(skaitlis))
-```
-
-@snap[south span-100 text-10]
-@[1](Tekstu ievieto mainīgajā)
-@[2](Tekstu pārveido par skaitli un ievieto mainīgajā)
-@[4-6](Lieto mainīgos, lai izvadītu datus)
 @snapend
 
 ---
 
 ### Laiks praktizēties!
 
-+++
-
-### repl.it vide
-
-@ul
-- nekas nav jāinstalē
-- pieejama caur pārlūkprogrammu
-- atbalsta dažādas valodas
-@ulend
-
-+++
-
-### Atbalsts mācību procesam:
-  
-@ul
-- uzdevumi
-- uzdevumu automātiskie testi
-- pārbaudes darbi
-- klases darba organizācija
-@ulend
-
-+++
-
-## Atveram repl.it vietni
-
-### Piesakāmies
-
-+++
-
-@img[](assets/img/replit-pirmalapa.png)
-
-+++
-
-### Atveram "Account"
-
-@img[](assets/img/replit-izvelne.png)
-
-+++
-
-### Ieķeksējam "teacher" un "student"
-
-@img[](assets/img/replit-roles.png)
-
-+++
-
-### Studenta skats
-
-@img[](assets/img/replit-student.png)
-
-+++
-
-#### Klases skats
-
-@img[](assets/img/replit-student-classroom.png)
-
-+++
-
-#### Uzdevuma skats
-
-@img[](assets/img/replit-student-assignment-view.png)
-
-+++
-
-### Un tagad pabūsim skolēnu ādā!
-
-#### Pievienojamies klasei
-
-https://repl.it/classroom/invite/gBoWpZQ
+- https://snakify.org/en/
+- https://codingbat.com/python
+- https://www.learnpython.org/en/Welcome
 
 ---
 
 @snap[north span-100 text-smallcaps]
+
 #### Zarošanās
+
 @snapend
 
 @snap[west span-50]
@@ -323,6 +363,7 @@ def pozitivs(skaitlis):
 
 
 ```
+
 @snapend
 
 @snap[east span-50]
@@ -343,7 +384,9 @@ function pozitivs(skaitlis) {
 +++
 
 @snap[north span-100 text-smallcaps]
+
 #### if-elif-else piemērs
+
 @snapend
 
 ```python
@@ -369,7 +412,9 @@ def dalisana(skaititajs, saucejs):
 +++
 
 @snap[north span-100 text-smallcaps]
+
 #### Cikli (for .. in range ...)
+
 @snapend
 
 ```python
@@ -393,6 +438,7 @@ for i in range(2, 11, 2):
 +++
 
 @snap[west span-50 text-center]
+
 #### Python
 
 ```python
@@ -400,6 +446,7 @@ for i in range(5):
   print(i)
 
 ```
+
 @snapend
 
 @snap[east span-50 text-center]
@@ -417,7 +464,9 @@ for (let i = 0; i < 5; i += 1) {
 +++
 
 @snap[north span-100 text-smallcaps]
+
 #### Cikli (for .. in ...) ar iterable
+
 @snapend
 
 ```python
@@ -445,7 +494,9 @@ for i in range(len(masivs)):
 +++
 
 @snap[north span-100 text-smallcaps]
+
 #### Cikli (for .. in ...) ar vārdnīcu
+
 @snapend
 
 ```python
@@ -461,12 +512,6 @@ vardnica["cetri"] = "four"
 
 ```
 
-+++
-
-### Un tagad atkal pabūsim skolēnu ādā
-
-#### Dodamies uz repl.it un turpinām
-
 ---
 
 ## Darbības ar failiem
@@ -474,10 +519,12 @@ vardnica["cetri"] = "four"
 +++
 
 @snap[north span-100 text-smallcaps]
+
 #### Failu darbību vispārīgs apskats:
 @snapend
 
 @ul
+
 - atver failu
   - kur atrodas?
   - kāda veida (teksta vai binārs)
@@ -486,6 +533,7 @@ vardnica["cetri"] = "four"
   - nolasa
   - ieraksta
 - aizver failu
+
 @ulend
 
 +++
@@ -529,11 +577,13 @@ with open("bilde.png", "rb") as bilde:
 ### Darbības ar teksta failiem
 
 @ul
+
 - vienkārši teksta faili *.txt
 - tabulāri dati, atdalīti ar simbolu *.csv
 - formatēti dokumenti *.doc
 - web lapas *.html
 - json dokumenti *.json
+
 @ulend
 
 +++
@@ -541,16 +591,9 @@ with open("bilde.png", "rb") as bilde:
 ### *.txt
 
 @ul
+
 - var vienkārši lasīt izmantojot iebūvēto funkcionalitāti
 - rindas ir atdalītas ar "\n"
 - rakstot "\n" ir jāpievieno, ja grib jaunu rindu
+
 @ulend
-
-+++
-
-### Un tagad atkal pabūsim skolēnu ādā
-
-https://repl.it/classroom/invite/gn3mTBi
-
----
-
