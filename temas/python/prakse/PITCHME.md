@@ -10,23 +10,51 @@
 
 @snap[west span-30 text-center]
 
-#### Python valoda
+#### Kāpēc Python?
 
-#### repl.it vide
+#### Ievads Python
 
 @snapend
 
 @snap[north-east span-60 text-12]
-@box[bg-green text-white box-padding](Ievads valodas sintaksē)
+@box[bg-gold text-white box-padding](Pielietojums)
 @snapend
 
 @snap[east span-60 text-12]
-@box[bg-blue text-white box-padding](Salīdzinājums ar JS)
+@box[bg-green text-white box-padding](Ievads sintaksē)
 @snapend
 
 @snap[south-east span-60 text-12]
-@box[bg-gold text-white box-padding](repl.it vide)
+@box[bg-blue text-white box-padding](Salīdzinājums ar JS)
 @snapend
+
+---
+
+### Kāpēc Python?
+
+@ul
+
+- Vienkārša sintakse
+  - (ja zina angļu valodu @fa[solid-smile-wink] )
+- Dažādas izmantošanas iespējas
+- Populāra kā pirmā programmēšanas valoda
+  - Vadošajās ASV universitātēs
+  - ne-programmētājiem
+  - profesionālās izglītības kursos
+- Daudz tiešsaistē materiālu
+
+@ulend
+
++++
+
+### Izmantošana
+
+@ul
+- datu apstrāde (NumPy, SciPy, Pandas)
+- tīmekļa lapas (Flask, Bottle, Django)
+- mašīnmācīšanās (OpenCV, PyTorch, TensorFlow)
+- robotika (pyFirmata)
+@ulend
 
 ---
 
@@ -35,11 +63,41 @@
 - Atkāpēm (atstarpēm) ir nozīme ...
 - ... jo bloki tiek apzīmēti ar atkāpi
 - Piespiež ievērot formatēšanas labo stilu
-- Koda redaktora funcionalitāte palīdz
+- Palīdz ar koda lasāmību
 
 ---
 
 ## Kā to lietot
+
++++
+
+@snap[north-east]
+#### Pamata datu tipi
+@snapend
+
+#### Python
+
+```python
+virkne = "Labrīt, skolotāji!"
+virkne2 = 'Var arī šādi'
+virkne3 = """Daudzas rindas
+ar apostrofiem ' arī!
+"""
+vesels_skaitlis = 10
+decimalskaitlis = 2.5
+pareizi = True
+nepareizi = False
+nav = None
+```
+
+@snap[south span-100 text-10]
+
+@[1,2](string)
+@[3](int)
+@[4](float)
+@[5,6](boolean)
+@[7](empty value)
+@snapend
 
 +++
 
@@ -50,23 +108,21 @@
 #### Python
 
 ```python
-vards = "Labrīt, skolotāji!"
-skaitlis = 10
-masivs = ["viens", 2, "trīs", 3.14]
-vardnica = {"diena": 24, "menesis": 10}
-pareizi = True
-nepareizi = False
-nav = None
+masivs = ["viens", 2, "trīs", 4.0]
+vardnica = { "diena": 22, "menesis": 10 }
+divdimensiju = [[0, 0],
+                [0, 0]]
+salikts =   [
+                {"id": 1, "vards": "Anna"},
+                {"id": 1, "vards": "Bruno"}
+            ]
 ```
 
 @snap[south span-100 text-10]
 
-@[1](string)
-@[2](skaitlis)
-@[3](masīvs)
-@[4](vardnica)
-@[5,6](boolean)
-@[7](empty value)
+@[1,3](list)
+@[2](dictionary)
+@[5](list of dictionaries)
 @snapend
 
 +++
